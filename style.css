@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url(img/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header:hover {
+    background: linear-gradient(90deg, transparent, rgba(225, 225, 225, 0.5), transparent);
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo:hover {
+    color: rgb(21, 75, 75);
+    cursor: pointer;
+    background-color: aqua;
+    box-sizing: border-box;
+    border-radius: 5px 5px;
+    padding: 8px 8px 13px 2px;
+    line-height: 1rem;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+.navbar a:hover {
+    color: rgb(21, 75, 75);
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(1, 214, 214);
+    box-sizing: border-box;
+    border-radius: 5px 5px;
+    padding: 4px 4px 5px 4px;
+    transition: 0.1s;
+}
+
+.icons {
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: 8px;
+    display: block;
+}
+
+.icons:hover {
+    color: rgb(64, 209, 209);
+    line-height: 1rem;
+    cursor: pointer;
+}
+
+/* style for div boxes */
+
+
+.container {
+    margin-top: 200px;
+    flex-direction: row;
+    display: flex;
+    display: inline-block;
+}
+
+.box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 110px;
+    background-color: rgba(0, 0, 0, .1);
+    /* color: #ffffff;   */
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+
+.box:hover {
+    background-color: #e2306c;
+    cursor: pointer;
+}
+
+
+
+i, .social-icon {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h1 {
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h1:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+
+p {
+    color: #000000;
+    padding-top: 35px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+p:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #e2306c;
+    cursor: pointer;
+}
