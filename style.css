@@ -100,10 +100,11 @@ body {
     height: 450px;
     text-align: center;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #00000093;
     margin-left: 110px;
-    background-color: rgba(0, 0, 0, .1);
-    /* color: #ffffff;   */
+    background-color: rgba(190, 196, 196, 0.856);
+    backdrop-filter: blur(10px);
+    color: #000000;
     padding-top: 45px;
     margin-bottom: 30px;
 }
@@ -115,10 +116,24 @@ body {
 
 
 
-i, .social-icon {
-    color: #ffffff;
+i,
+.social-icon {
+    color: #000000;
     font-size: 50px;
 }
+
+#box1>i:hover {
+    color: #1da1f2;
+}
+
+#box2>i:hover {
+    color: rgba(5 10 230);
+}
+#box3>i:hover {
+    color: #ff0000;
+}
+
+
 
 h1 {
     padding-top: 35px;
@@ -158,3 +173,7 @@ p:hover {
     color: #e2306c;
     cursor: pointer;
 }
+
+
+
+
